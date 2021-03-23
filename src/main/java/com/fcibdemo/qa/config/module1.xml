@@ -1,7 +1,7 @@
 <module>
 	<init-param>
 		<param-name>SenderRef</param-name>
-		<param-value>CWB15032500102</param-value>
+		<param-value>CWB15032500105</param-value>
 	</init-param>
 	<init-param>
 		<param-name>BankOp</param-name>
