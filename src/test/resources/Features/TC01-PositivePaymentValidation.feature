@@ -13,7 +13,7 @@ Feature: Payment Validation Positive Scenario
 			
 			Examples: 
 			|EntryDate|MessageType| PaymentType  | Reference | SubRef | SenderRef                |
-      |         | 103       | RTGS RECEIVE | Sender Ref|  EQUAL | CWB1503250000101         |     
+                        |         | 103       | RTGS RECEIVE | Sender Ref|  EQUAL | CWB1503250000104         |     
       
        
       	
