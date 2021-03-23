@@ -10,8 +10,8 @@ public class TestUtil {
 	
 	public static void takeScreenshot(String actual, String expected) throws IOException {
 		
-		String path;
-		ExtentCucumberAdapter.addTestStepLog("Actual : "+actual+" Expected : "+expected);
+	//	String path;
+	//	ExtentCucumberAdapter.addTestStepLog("Actual : "+actual+" Expected : "+expected);
 		
 	
 //		  File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
