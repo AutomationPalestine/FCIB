@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions( 
-		features="src/test/resources/Features/TC01-PositivePaymentValidation,TC02-NegativePaymentValidation1.feature"
+		features="src/test/resources/Features/TC01-PositivePaymentValidation,TC03-NegativePaymentValidation1.feature"
 		,glue= {"StepDefinition"}
 		,monochrome=true
 		,dryRun=false
