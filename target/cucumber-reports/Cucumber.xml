@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="134.556">
+<testcase classname="Payment Validation Negative Scenario" name="To Import High value Inward Payment MT103" time="76.419">
+<system-out><![CDATA[Given user goes to Application Support Tools and click on Import/Export menu.passed
+Then user import High value Payment in application..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Payment Validation Negative Scenario" name="To Validate Negative Scenario" time="58">
+<failure message="The following asserts failed:&#10;&#9;Sender Ref field validation expected [CWB15032500102] but found [CWB1503250000102],&#10;&#9;Amount field validation expected [250.00] but found [21,000.00],&#10;&#9;Debit Equivalent Amount field validation expected [25,000.00] but found [21,000.00],&#10;&#9;Debit RTGS Amount field validation expected [25,000.00] but found [21,000.00],&#10;&#9;Credit Customer Amount field validation expected [25,000.00] but found [21,000.00]" type="java.lang.AssertionError"><![CDATA[Given user goes to payment list.............................................passed
+Then user uses the filter "","103","RTGS RECEIVE","Sender Ref","EQUAL","CWB1503250000102" to view the payment.passed
+Then user validates payment screen..........................................failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	Sender Ref field validation expected [CWB15032500102] but found [CWB1503250000102],
+	Amount field validation expected [250.00] but found [21,000.00],
+	Debit Equivalent Amount field validation expected [25,000.00] but found [21,000.00],
+	Debit RTGS Amount field validation expected [25,000.00] but found [21,000.00],
+	Credit Customer Amount field validation expected [25,000.00] but found [21,000.00]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at StepDefinition.PaymentValidationStepDefinition.user_validates_payment_screen(PaymentValidationStepDefinition.java:282)
+	at ✽.user validates payment screen(file:///E:/Automation%20Project/FCIBDemo/src/test/resources/Features/TC02-NegativePaymentValidation.feature:12)
+]]></failure>
+</testcase>
+</testsuite>
