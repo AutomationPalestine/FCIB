@@ -6,7 +6,7 @@ pipeline{
                     
                     steps{
                             echo "code checkout"
-                           git branch: 'Testing', url: 'https://github.com/AutomationPalestine/TNBC.git'
+                           git branch: 'Testing', url: 'https://github.com/AutomationPalestine/FCIB.git'
                     }
                 
                 
